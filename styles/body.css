@@ -1,0 +1,14 @@
+.body {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(rgb(82, 67, 170), rgb(237, 80, 180)) no-repeat;
+
+    margin-top: 80px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
