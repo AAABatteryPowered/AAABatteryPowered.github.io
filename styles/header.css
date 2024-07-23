@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 .header {
     position: fixed;
     top: 0;
@@ -10,14 +8,16 @@
 .navbar { 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #FDFDFD;
     height: 70px;
 }
 
 .navbar-button {
     background-color: rgb(255, 255, 255);
+
+    color: #303030;
     
     font-weight: 700;
     font-size: 16px;
@@ -29,7 +29,15 @@
 
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 20px;
-    
+
+    cursor: pointer;
+
+    transition: 0.35s all ease;
+}
+
+.navbar-button:hover {
+    color: #717171;
+    transition: 0.35s all ease;
 }
