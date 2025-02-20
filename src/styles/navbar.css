@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.open-navbar {
+    color: rgb(95, 129, 255);
+    font-size: 2rem;
+}
+
+.navbar-menu {
+    top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    border-radius: 4px;
+    margin-left: 20px;
+    transition: 0.3s all ease;
+}
+
+.navbar-menu-hidden b                                           {
+    width: 0%;
+    transition: 0.3s all ease;
+}
+
+.navbar-menu-item {
+    color: rgb(95, 129, 255);
+    font-weight: 500;
+}

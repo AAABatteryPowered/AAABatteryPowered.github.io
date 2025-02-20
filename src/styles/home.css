@@ -1,0 +1,11 @@
+.page-title {
+    color: rgb(79, 43, 255);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.homepage-top-half {
+    display: flex;
+    margin: 20px;
+}
